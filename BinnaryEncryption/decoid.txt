@@ -1,0 +1,24 @@
+The Excelsior Installer setup "KadimaChartsGenerator By Samuel Owino-setup.exe" has been successfully
+created in the directory 
+
+	C:\Users\user\Documents\KadimaChartGen
+
+The executable can be deployed to target systems now.
+ 
+INSTALLATION PROCEDURE
+ 
+The user runs the installer and follows on-line prompts.
+ 
+AUTOMATIC BUILD
+ 
+To build the installer executable without invoking the JetPackII wizard,
+use the following command:
+
+	xpack "C:\Users\user\Documents\KadimaChartGen\KadimaChartsGenerator By Samuel Owino.jpn"
+
+The executable will be created in the directory
+
+	"C:\Users\user\Documents\KadimaChartGen".
+
+Advanced build options are described in the JET Users Guide,
+chapter "Deployment automation", section "Deployment utilities".
