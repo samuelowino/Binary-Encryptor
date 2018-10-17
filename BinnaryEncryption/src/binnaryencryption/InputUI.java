@@ -104,7 +104,8 @@ public class InputUI extends JFrame {
         statementLabels.stream()
                 .forEach(e -> {
                     e.setForeground(Color.decode("#808080"));
-                    e.setFont(new Font("Calibri Light", Font.PLAIN, 16));
+                    e.setBorder(new LineBorder(Color.WHITE,1,true));
+                    e.setFont(new Font("Arial", Font.PLAIN, 16));
                     add(e);
 
                 });
